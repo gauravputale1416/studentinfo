@@ -1,0 +1,17 @@
+.inputbox {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    width: 20%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.inputbox:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+.condiction {
+    display: none;
+}

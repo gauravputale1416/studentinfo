@@ -1,0 +1,125 @@
+.app-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 25px;;
+    text-align: center;
+    margin-top: 0%;
+    letter-spacing: 1px;
+}
+
+.main-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 80vh;
+    background: #f5f6fa;
+    padding: 40px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);    
+    width: 90%; 
+    flex-wrap: wrap;
+    margin: 60px 75px;
+}
+
+.student-card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 2px 40px;
+    margin: 20px 35px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    width: 300px;
+    transition: box-shadow 0.2s;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.student-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.inputbox {
+    width: 100%;
+    padding: 10px 14px;
+    margin: 10px 0 18px 0;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.2s;
+    background: #fafbfc;
+}
+
+.inputbox:focus {
+    border: 1.5px solid #4a90e2;
+    background: #fff;
+}
+
+button {
+    padding: 10px 22px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:last-child {
+    background: #e94e77;
+}
+
+button:hover {
+    background: #357ab8;
+}
+
+button:last-child:hover {
+    background: #c0395b;
+}
+
+h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    color: #e94e77;
+    font-size: 15px;
+    margin-bottom: 10px;
+    min-height: 18px;
+    width: 100px;
+}
+.home-container{
+  margin: 0;
+  padding-top: 20px;
+  
+}
+.icon{
+    height: 15px;
+    margin: 0px 10px;
+
+}
+.gender-img{
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.student-age{
+font-size: large;
+margin-left: 12px;
+}
+.add-student-btn{
+    margin-left: 30px;
+}
+.student-name{
+    margin-left: 90px;
+}
