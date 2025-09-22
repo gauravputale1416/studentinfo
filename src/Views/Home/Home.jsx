@@ -17,7 +17,6 @@ function Home() {
       <div  className='main-cart' style={{background:SECONDARYCOLOR,color:TEXTCOLOR}}>
         {studentData.map((student)=>{
             return(
-              <div >
                 <div className='student-card'>
                     <h1 className='student-name'>{student.name}</h1>
                     <p className='student-age'>Age : {student.age}</p>
@@ -25,7 +24,6 @@ function Home() {
                     <p>{student.gender==='female'?<Venus className='icon' />:<Mars className='icon'/>}{student.gender}</p>
                     <div ><img className='gender-img' src={student.gender==='female'?female:Male}  /></div>
                 </div>
-                 </div>
             )
         })}
       </div>
