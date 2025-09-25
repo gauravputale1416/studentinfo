@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import './home.css'
+import './Home.css'
 import { studentData } from '../../Configs/Data-List/Data.js'
 import { BGCOLOR, PRIMARYCOLOR, SECONDARYCOLOR, TEXTCOLOR, DISABLEDTEXTCOLOR, APPNAME } from '../../Configs/Data-List/Main_Data.js'
 import { MapPin, Venus, Mars, Link } from 'lucide-react';
@@ -22,7 +22,9 @@ function Home() {
               <p className='student-city'> <MapPin className='icon' /> {student.city}</p>
               <p>{student.gender === 'female' ? <Venus className='icon' /> : <Mars className='icon' />}{student.gender}</p>
               <div><img className='gender-img' src={student.gender === 'female' ? female : Male} /></div>
+              <a href={`https://www.google.com/search?q=${student.name}`} target='_blank' className='link-style'><Link className='icon' />Google {student.name}</a>
             </div>
+           
           )
         })}
       </div>
